@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  padding-top: 2em;
+}
+article {
+  width: 50%;
+  margin:0 auto;
+  border: 1px black solid;
+  padding: 1em;
+}
+h1 {
+  margin-top: 2.3em;
+}
+ul {
+  width: 50%;
+  margin: 0 auto;
+}
+li {
+  list-style-type:none;
+  display:inline-block;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #333;
+  padding: 2em;
+}
+a::after {
+  content:""
+  display:block;
+  clear:both;}
+.tabs{
+  background-color: tomato;
+  margin-bottom: 2em;
+}
+.container {
+  text-align: center;
+}
