@@ -34,5 +34,6 @@ a::after {
   margin-bottom: 2em;
 }
 .container {
+  margin: 6em auto;
   text-align: center;
 }

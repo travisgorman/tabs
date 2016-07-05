@@ -1,0 +1,26 @@
+body {
+  padding-top: 6em;
+  font-family: sans-serif;
+}
+.container {
+  width: 70%;
+  padding: 1em;
+  margin: 0 auto;
+  background-color: lightgreen;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+li {
+  list-style-type: none;
+  margin-left: 1.4em;
+  padding: 0.5em;
+  border: 1px solid turquoise;
+  height: 18px; 
+}
+a {
+  text-decoration: none;
+  color: teal;
+}

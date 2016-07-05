@@ -41,3 +41,14 @@ function pageRender(content){
 }
 
 pageRender('Barack');
+
+var $links = $('a');
+console.log( $links );
+
+
+links.forEach( function( link ){
+  link.addEventHandler('click', function(evt){
+    link.classList.remove('active');
+  });
+
+})
